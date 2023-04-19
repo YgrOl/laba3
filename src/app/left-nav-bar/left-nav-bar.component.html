@@ -1,0 +1,40 @@
+<div class="navbar">
+  <ul>
+    <li>
+      <a routerLink="/home" routerLinkActive="active">Home</a>
+    </li>
+    <li>
+      <a routerLink="/contacts" routerLinkActive="active">Contacts</a>
+    </li>
+    <li>
+      <a routerLink="/about" routerLinkActive="active">About</a>
+    </li>
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<div class="navbar">
+  <ul>
+    <ng-container *ngFor="let link of links">
+      <li>
+        <div [ngClass]="{'default': !link.active,
+                          'active': link.active}"
+             (click)="onLinkClick(link.label)">
+          <a href="#">{{link.label}}</a>
+        </div>
+      </li>
+    </ng-container>
+  </ul>
+</div>-->

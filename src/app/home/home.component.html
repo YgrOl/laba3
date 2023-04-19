@@ -1,0 +1,7 @@
+<ul>
+  <ng-container *ngFor="let user of users">
+    <li>
+      <a [routerLink]="['/users', user.id]" [state]="user">{{user.name}}</a>
+    </li>
+  </ng-container>
+</ul>

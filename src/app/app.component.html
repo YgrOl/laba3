@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="header-space">
+    <app-header [userName]="currentUser"
+                [profilePicture]="userPicture"
+                [logo]="logoPath"
+                (logoClick)="helloMessage = $event"></app-header>
+  </div>
+  <div class="sidebar-space">
+    <app-left-nav-bar [links]="navBarLinks"></app-left-nav-bar>
+  </div>
+
+  <div class="main-space content">
+    <router-outlet></router-outlet>
+  </div>
+
+  <div class="footer-space">
+    <app-footer [links]="navBarLinks"></app-footer>
+  </div>
+</div>
+
+
+

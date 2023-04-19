@@ -1,0 +1,32 @@
+.navbar{
+  background-color: #ecdba2;
+  height: 640px;
+  width: 100px;
+  ul{
+    margin: 0;
+    padding: 15px;
+    list-style-type: none;
+
+    li:not(:last-child) {
+      margin-bottom: 30px;
+    }
+    div{
+      padding: 5px 10px;
+    }
+    a{
+      text-decoration: none;
+    }
+  }
+
+  .active{
+    background-color: #9adca3;
+    border-radius: 5px;
+  }
+  .default{
+    background-color: transparent;
+    a{
+      color: black;
+    }
+  }
+
+}

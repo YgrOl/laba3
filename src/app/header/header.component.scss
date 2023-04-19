@@ -1,0 +1,38 @@
+.header{
+  width: 100%;
+  background-color: aquamarine;
+  .header-content{
+    padding: 5px 0;
+    margin: 0 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo{
+    width: 70px;
+    height: 70px;
+  }
+  .name{
+    position: absolute;
+    font-size: 40px;
+    margin: 0px;
+    left:45%;
+  }
+  .facephoto{
+    width: 85px;
+    height: 75px;
+  }
+
+  .user{
+    display: flex;
+    align-items: center;
+    .username{
+      margin: 0;
+      padding: 0;
+    }
+    .profile-picture{
+      margin-left: 7px;
+      width: 35px;
+      height: 35px;
+    }
+  }
+}
