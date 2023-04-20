@@ -9,10 +9,19 @@
 
   .active{
     color: #ce4ba0;
-    text-decoration: #ce4ba0 wavy underline;
+    text-decoration: none;
   }
   .default{
     text-decoration: none;
     color: black;
+  }
+  li{
+    list-style: none;
+    display:inline-block;
+    margin: 5px;
+    font-size: 25px;
+  }
+  a{
+    text-decoration: none;
   }
 }
